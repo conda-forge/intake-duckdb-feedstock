@@ -1,5 +1,5 @@
 {% set name = "intake-duckdb" %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/intake/intake-duckdb/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 8f212b16d7a156574175fe5e6762c3179b986f1684aa95573dd7198c7567ea2f
+  sha256: 0fb6685ed81a9602abf4f7d7867315f9ea469a0a095203b1bfbd6e9d3105467e
 
 build:
   noarch: python
